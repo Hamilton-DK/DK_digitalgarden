@@ -2,14 +2,13 @@
 {"dg-publish":true,"permalink":"/c5/ctf/ctf/ctf/","dgPassFrontmatter":true}
 ---
 
-
+#CTF-工具
 **BP**:抓包工具，啥都能用
 **Dirsearch**:用 Python 编写的开源的目录和文件扫描工具，常用于网站的信息收集阶段，通过对目标网站进行目录和文件的枚举，帮助发现网站上可能存在的敏感目录或文件[[0-Dirsearch使用教程\|0-Dirsearch使用教程]]
 
 
-# sqlmap使用教程
-
 # SQLMAP使用
+#CTF-工具 
 ## 参数介绍和示例
 
 `-r`：万能参数，主要针对post注入，但是任何其他请求方法都是可以的，但这个参数用的最多
@@ -92,7 +91,9 @@ sqlmap.py -u http://192.168.203.141/sqlserver/1.aspx?xxser=1 --os-shell
 ```
 
 
+
 # antsword蚁剑使用教程
+#CTF-RCE #CTF-命令执行 
 
 [贴一篇使用博客](https://blog.csdn.net/qq_53079406/article/details/123302775)
 ## 一、antsword的webshell使用
@@ -103,3 +104,4 @@ sqlmap.py -u http://192.168.203.141/sqlserver/1.aspx?xxser=1 --os-shell
 ![Pasted image 20250405100610.png|450](/img/user/PNG/Pasted%20image%2020250405100610.png)
 
 # dirsearch 目录扫描使用教程
+#CTF-信息收集 

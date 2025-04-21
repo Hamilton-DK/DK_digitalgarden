@@ -3,6 +3,8 @@
 ---
 
 #CTF-工具
+https://websec.readthedocs.io/zh/latest/intranet/index.html
+
 **BP**:抓包工具，啥都能用
 **Dirsearch**:用 Python 编写的开源的目录和文件扫描工具，常用于网站的信息收集阶段，通过对目标网站进行目录和文件的枚举，帮助发现网站上可能存在的敏感目录或文件[[0-Dirsearch使用教程\|0-Dirsearch使用教程]]
 
@@ -105,3 +107,12 @@ sqlmap.py -u http://192.168.203.141/sqlserver/1.aspx?xxser=1 --os-shell
 
 # dirsearch 目录扫描使用教程
 #CTF-信息收集 
+常用命令
+```
+python3 dirsearch.py -u url地址
+```
+
+# nmap使用
+
+# GIT的使用
+[大佬的文章，写的非常全面](https://blog.csdn.net/mukes/article/details/115693833)
